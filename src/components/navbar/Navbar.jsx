@@ -1,30 +1,58 @@
+import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import "./mobileNav.css";
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="short__navbar">
       <div className="short__navbar-links">
-        <div className="gpt3__navbar-links_logo">
+        <div className="short__navbar-links_logo">
           <img src={logo} alt="navbar" />
         </div>
-        <div className="gpt3__navbar-links_container">
-          <p>
-            <a href="#home">Home</a>
-          </p>
-          <p>
-            <a href="#wgpt3">What is GPT3?</a>
-          </p>
-          <p>
-            <a href="#possibility">Open AI</a>
-          </p>
-          <p>
-            <a href="#features">Case Studies</a>
-          </p>
-          <p>
-            <a href="#blog">Library</a>
-          </p>
+        <div className="short__navbar-links_container">
+          <a href="#feature">Feature</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#resources">Resources</a>
         </div>
+      </div>
+
+      <div className="short__navbar-sign">
+        <a href="#login">Login</a>
+        <a href="#signup">Sign Up</a>
+      </div>
+
+      <div className="short__navbar-menu">
+        {toggleMenu ? (
+          <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
+        ) : (
+          <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
+        )}
+        {toggleMenu && (
+          <div className="short__navbar-menu_container rotate-in-diag-2">
+            <div className="short__navbar-menu_container-links">
+              <p>
+                <a href="#feature">feature</a>
+              </p>
+              <p>
+                <a href="#pricing">Pricing</a>
+              </p>
+              <p>
+                <a href="#resources">Resources</a>
+              </p>
+            </div>
+            <div className="short__navbar-menu_container-links-sign">
+              <p>
+                <a href="#login">Login</a>
+              </p>
+              <p>
+                <a href="#signup">Sign Up</a>
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

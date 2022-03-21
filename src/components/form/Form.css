@@ -1,0 +1,5 @@
+.short__form {
+  background: var(--gray);
+  background: hsl(0, 5%, 92%);
+  padding-bottom: 120px;
+}

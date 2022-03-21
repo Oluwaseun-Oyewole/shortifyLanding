@@ -1,5 +1,5 @@
-import { Navbar } from "./components";
-import { Hero } from "./container";
+import { Navbar, Form, Footer, Feature } from "./components";
+import { Hero, Cta } from "./container";
 import "./App.css";
 
 const App = () => {
@@ -8,9 +8,18 @@ const App = () => {
       <div>
         <Navbar />
         <Hero />
+        <Form />
+        <Cta />
+        <Footer />
       </div>
     </div>
   );
 };
 
 export default App;
+
+// <Navbar />
+// <Hero />
+// <Form />
+// <Cta />
+// <Footer />

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
 :root {
   --cyan: hsl(180, 66%, 49%);
   --gray: hsl(0, 0%, 75%);
@@ -7,3 +9,32 @@
   --very-dark-violet: hsl(260, 8%, 14%);
   --red: hsl(0, 87%, 67%);
 }
+
+/* <div className="short__navbar-menu">
+{toggleMenu ? (
+  <RiCloseLine onClick={() => setToggleMenu(false)} size={27} />
+) : (
+  <RiMenu3Line onClick={() => setToggleMenu(true)} size={27} />
+)}
+
+{toggleMenu && (
+  <div className="short__navbar-menu_container scale-up-center">
+    <div className="short__navbar-menu_container-links">
+      <p>
+        <a href="#feature">Feature</a>
+      </p>
+      <p>
+        <a href="#pricing">Pricing</a>
+      </p>
+      <p>
+        <a href="#resources">Resources</a>
+      </p>
+    </div>
+
+    <div className="short__navbar-menu_container-links-sign">
+      <a href="#login">Login</a>
+      <a href="#signup">Sign Up</a>
+    </div>
+  </div>
+)}
+</div> */

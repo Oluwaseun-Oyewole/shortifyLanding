@@ -1,0 +1,26 @@
+@media (max-width: 964px) {
+  footer .container {
+    grid-template-columns: 1.2fr 1fr 1fr 1fr 0.7fr;
+  }
+}
+
+@media (max-width: 805px) {
+  footer .container {
+    text-align: center;
+    grid-template-columns: unset;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+    width: 60%;
+    margin: auto;
+  }
+  .icons {
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}

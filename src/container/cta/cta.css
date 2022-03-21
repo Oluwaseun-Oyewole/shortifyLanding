@@ -1,0 +1,26 @@
+.short__cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-violet);
+  background-image: url("../../assets/bg-boost-desktop.svg");
+  padding: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.short__cta h1 {
+  color: #fff;
+}
+.short__cta button {
+  font-size: 15px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  margin-top: 15px;
+  background: var(--cyan);
+  color: white;
+  cursor: pointer;
+}
+
+.short__cta button:hover {
+  background: hsl(180, 87%, 65%);
+}

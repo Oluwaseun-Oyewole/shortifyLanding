@@ -36,10 +36,10 @@ The designs were created to the following widths:
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 500, 700
 
-## Icons
+## Short\_\_footer-font-icons
 
-For the social icons, you can either use the SVGs provided or a font icon library. Some suggestions for font icon libraries can be found below:
+For the social short\_\_footer-font-icons, you can either use the SVGs provided or a font icon library. Some suggestions for font icon libraries can be found below:
 
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)
+- [Ionshort\_\_footer-font-icons](https://ionicons.com)
