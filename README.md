@@ -1,1 +1,1 @@
-##### URL Shortener landing page with reactJS
+##### Shortify landing page with reactJS

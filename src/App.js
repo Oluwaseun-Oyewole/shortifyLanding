@@ -1,4 +1,4 @@
-import { Navbar, Form, Footer, Short } from "./components";
+import { Navbar, Form, Footer } from "./components";
 import { Hero, Cta } from "./container";
 import "./App.css";
 
