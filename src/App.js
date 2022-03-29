@@ -1,4 +1,4 @@
-import { Navbar, Form, Footer, Feature } from "./components";
+import { Navbar, Form, Footer, Short } from "./components";
 import { Hero, Cta } from "./container";
 import "./App.css";
 
@@ -17,9 +17,3 @@ const App = () => {
 };
 
 export default App;
-
-// <Navbar />
-// <Hero />
-// <Form />
-// <Cta />
-// <Footer />

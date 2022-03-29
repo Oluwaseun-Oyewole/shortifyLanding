@@ -11,14 +11,50 @@
   background-position: center;
   position: relative;
   bottom: 58px;
+  padding: 2rem;
 }
 input[type="text"] {
   width: 585px;
   height: 40px;
   outline: none;
   border-radius: 6px;
-  border: none;
+  /* border: none; */
   padding: 0 20px 0 20px;
+}
+
+.addBorder {
+  border: 2px red solid;
+  color: red;
+}
+
+.addBorder::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: hsl(0, 43%, 65%);
+}
+.addBorder:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: hsl(0, 43%, 65%);
+  opacity: 1;
+}
+.addBorder::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: hsl(0, 43%, 65%);
+  opacity: 1;
+}
+.addBorder:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: hsl(0, 43%, 65%);
+}
+
+.removeBorder {
+  border: none;
+}
+
+.please {
+  color: #fff;
+  padding-top: 0.2rem;
+  padding-left: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 
 .red::placeholder {
@@ -42,4 +78,35 @@ input[type="text"] {
   font-size: 14px;
   padding-top: 2px;
   visibility: hidden;
+}
+
+/* testing */
+
+.lists {
+  width: 800px;
+  margin: auto;
+  margin-top: -40px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.long-link {
+  flex: 1;
+  color: var(--very-dark-violet);
+  width: 100px;
+}
+.short-link {
+  color: var(--cyan);
+}
+.list button {
+  padding: 8px 20px;
+  border-radius: 6px;
+  margin-left: 10px;
 }
